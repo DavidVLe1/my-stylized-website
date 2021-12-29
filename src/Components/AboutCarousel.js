@@ -1,6 +1,10 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import '../Styles/CSSCarousel.css';
+import Business_Profile from "../assets/Business_Profile.jpg";
+import programing_gif from "../assets/programing_gif.gif";
+
+import reading_books from "../assets/reading_books.gif";
 
 function AboutCarousel() {
     return (
@@ -15,7 +19,7 @@ function AboutCarousel() {
                     <Carousel variant="dark">
                         <Carousel.Item>
                             <div className='left-image'>
-                                <img className="short-bio_pic" src='../assets/Business_Profile.jpg' alt="First slide" />
+                                <img className="short-bio_pic" src={Business_Profile} alt="First slide" />
                             </div>
                             
                             
@@ -32,7 +36,7 @@ function AboutCarousel() {
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="Education" src="../assets/reading_books.gif" alt="Second slide"/>
+                            <img className="Education" src={reading_books} alt="Second slide"/>
                             <Carousel.Caption>
                             <div className='carousel-text'>
                                 <h5>Education</h5>
@@ -43,7 +47,7 @@ function AboutCarousel() {
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="Skills" src="../assets/programing_gif.gif" alt="Third slide"/>
+                            <img className="Skills" src={programing_gif} alt="Third slide"/>
                             <Carousel.Caption>
                             <div className='carousel-text'>
                                 <h5>Skills</h5>

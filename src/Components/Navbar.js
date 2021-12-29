@@ -1,11 +1,11 @@
 import React from 'react';
 import '../Styles/Navbar.css';
-
+import cloud from '../assets/cloud.png';
 function Navbar() {
     return (
         <div className='navbar'>
-            <img className="left-cloud" src='../assets/cloud.png' alt="left cloud" />
-            <img className="right-cloud" src='../assets/cloud.png' alt="right cloud" />
+            <img className="left-cloud" src={cloud} alt="left cloud" />
+            <img className="right-cloud" src={cloud} alt="right cloud" />
             <div className='links'>
                 <a href='#home'> Home</a>
                 <a href='#about'> About</a>

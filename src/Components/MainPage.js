@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Styles/MainPage.css";
-
+import mountain from "../assets/mountain.png"
 function MainPage() {
     return (
         <div className='home' id='home'>
@@ -11,7 +11,7 @@ function MainPage() {
                         <h4>and this is my personal resume website.</h4>
                     </h1>
                 </div>
-                <img className='mountainPicture' src='../assets/mountain.png' alt='mountain'></img>
+                <img className='mountainPicture' src={mountain} alt='mountain'></img>
                 
 
             </div>
