@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/my-stylized-website/static/css/main.34372123.css",
-    "main.js": "/my-stylized-website/static/js/main.0c8aba19.js",
+    "main.css": "/my-stylized-website/static/css/main.10cd0d25.css",
+    "main.js": "/my-stylized-website/static/js/main.27562c7d.js",
     "static/js/787.2cf2624a.chunk.js": "/my-stylized-website/static/js/787.2cf2624a.chunk.js",
+    "static/media/Business_Profile.jpg": "/my-stylized-website/static/media/Business_Profile.f7d4b86e748f7b467591.jpg",
+    "static/media/reading_books.gif": "/my-stylized-website/static/media/reading_books.cf0cfa3021882d707a76.gif",
+    "static/media/programing_gif.gif": "/my-stylized-website/static/media/programing_gif.871399fd4222f78d9253.gif",
+    "static/media/mountain.png": "/my-stylized-website/static/media/mountain.b19dbf26d975bcb5b48d.png",
     "index.html": "/my-stylized-website/index.html",
-    "main.34372123.css.map": "/my-stylized-website/static/css/main.34372123.css.map",
-    "main.0c8aba19.js.map": "/my-stylized-website/static/js/main.0c8aba19.js.map",
+    "main.10cd0d25.css.map": "/my-stylized-website/static/css/main.10cd0d25.css.map",
+    "main.27562c7d.js.map": "/my-stylized-website/static/js/main.27562c7d.js.map",
     "787.2cf2624a.chunk.js.map": "/my-stylized-website/static/js/787.2cf2624a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34372123.css",
-    "static/js/main.0c8aba19.js"
+    "static/css/main.10cd0d25.css",
+    "static/js/main.27562c7d.js"
   ]
 }
