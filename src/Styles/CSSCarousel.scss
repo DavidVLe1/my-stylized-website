@@ -1,0 +1,39 @@
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+h1{
+    text-align: center;
+}
+
+.aboutCarousel {
+    align-items: center;
+    justify-content: center;
+    padding-top:10%;
+    padding-left: 0%;
+    padding-right:0%;
+    padding-bottom: 10rem;
+    box-sizing: 600px;
+    .carousel-text{
+        float: top;
+        vertical-align: top;
+        padding-bottom: 150px;
+    }
+
+    img {
+        
+        margin-left: 3%;
+        float: left;
+        height: 350px;
+        
+    }
+    .short-bio_pic{
+        border-radius: 50%;
+    }
+
+    a {
+        text-decoration: none !important;
+        color: black;
+    }
+
+    
+}

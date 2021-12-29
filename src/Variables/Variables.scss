@@ -1,0 +1,20 @@
+$blackColor: rgb(24,24,24);
+$darkgrey: rgb(43, 38, 38);
+$whiteColor: rgb(212, 211, 211);
+$lightblue:rgb(187, 243, 245);
+$redColor:rgb(228, 17, 17);
+$lightgreen:rgb(45, 189, 157);
+
+
+$titleFont: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$bodyFont: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+@mixin buttonStyle ($color, $fontSize) {
+    width: 200px;
+    height: 40px;
+    background-color: $color;
+    border: none;
+    border-radius: 8px;
+    color: $whiteColor;
+    font-size: $fontSize;
+}

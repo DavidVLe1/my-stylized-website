@@ -1,0 +1,41 @@
+@import "../Variables/Variables.scss";
+
+.contact-content{
+    background-color: $darkgrey;
+    color: $whiteColor;
+    text-align: center;
+    padding-bottom: 5%;
+
+    .contact-info{
+        
+        color: $whiteColor;
+    }
+
+    .github{
+        size: auto;
+        display:inline-block;
+        margin:10px
+    }
+    .linkedin{
+        size: auto;
+        display:inline-block;
+        margin:10px
+    }
+    .phone{
+        size: auto;
+        display:inline-block; 
+        margin:10px
+    }
+    .email{
+        size: auto;
+        display:inline-block;
+        margin:10px
+    }
+}
+hr{
+    background-color: $whiteColor;
+}
+a {
+    text-decoration: none !important;
+    color: $whiteColor;
+}
